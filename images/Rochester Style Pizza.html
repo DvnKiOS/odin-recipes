@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Rochester Style Pizza</title>
+</head>
+<body>
+    <a href="../index.html">Home</a>
+  
+    <h1 class="title">Rochester Style Pizza</h1>
+    <div> 
+    <img src="../images/ovenPizza.jpeg"
+    width="475"
+    height="300">
+    
+    
+    
+   
+        <p> 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Cumque amet quisquam enim reiciendis voluptates nihil nesciunt dolore vero nam temporibus totam, minus odio provident </p>
+
+             <p> fugiat omnis natus beatae laudantium veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aspernatur,
+              recusandae exercitationem in enim dolore praesentium rem nesciunt quia nobis accusamus. 
+             Corrupti saepe veritatis nulla inventore, tempore dolor cumque laborum.</p>
+            </div>
+             <div>
+                <ol>
+                    <li><strong>Dough:</strong> Mix, flour, yeast, oil, and salt; let raise.</li>
+                    <li><strong>Preheat Oven:</strong> Set to 475F</li>
+                    <li><strong>Shape Dough:</strong>:Roll dough in to the shape of a circle</li>
+                    <li><strong>Bake:</strong> Bake pizza in over for 12 - 15 minutes</li>
+                    <li><strong>Serve:</strong>: Slice and enjoy!</li>
+
+
+                </ol>
+             </div>
+        
+    </div>
+</div>
+<div  class="cooking-duration-and-prepare-amount"> 
+    <div>
+        <h6>
+            Time to cook: 45 Minutes
+        </h6>
+
+    </div>
+    
+<div>
+    <h6> 
+        Prepares for: 6 People
+    </h6>
+</div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>

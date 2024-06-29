@@ -1,0 +1,60 @@
+.cooking-duration-and-prepare-amount {
+    display: flex;
+    grid-auto-flow: column;
+    width: max-content;
+    gap: 15rem;
+}
+
+.recipe-titles{
+    gap: 7rem;
+}
+.recipe-titles, li{
+    font-size: 24px;
+}
+
+.title {
+    background-color: red;
+
+    
+}
+
+.title-space {
+    gap: 0;
+}
+html{
+    background: #696C75 ;
+}
+.webpage-main-color{
+    background-color: #696C75;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+  
+}
+
+.image {
+   padding-left: 15px;
+   border: 1px solid #696C75;
+   border-radius: 25px;
+}
+
+p {
+    font-size: 24px;
+padding-left: 15px;
+font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    padding-left: 15px;
+}
+h1 { 
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navigation, li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.list-items, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
